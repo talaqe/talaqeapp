@@ -29,7 +29,10 @@ class CallApi{
     }
 
   }
-    Future<bool> addImage(Map<String, String> body, String filepath) async {
+
+  
+  
+  Future<bool> addImage(Map<String, String> body, String filepath) async {
       String addimageUrl = _url+'signup/dentist/image';
      var request = http.MultipartRequest('POST', Uri.parse(addimageUrl))
         ..fields.addAll(body)
