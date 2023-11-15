@@ -1,4 +1,4 @@
-package com.example.talaqe
+package com.talaqe.tallaqe
 
 import io.flutter.embedding.android.FlutterActivity
 
